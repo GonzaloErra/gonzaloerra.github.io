@@ -115,7 +115,7 @@
 	background-position: center;
 }
 .eight {
-	background: url('https://source.unsplash.com/880x820');
+	background: url('/masogori/images/Proveedor/propuesta.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -127,13 +127,13 @@
 	background-position: center;
 }
 .ten {
-	background: url('https://source.unsplash.com/8998x920');
+	background: url('/masogori/images/Proveedor/proveedor.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 .eleven {
-	background: url('https://source.unsplash.com/898x960');
+	background: url('/masogori/images/Proveedor/download.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;

@@ -6,11 +6,11 @@
 --------------------------------------------------------------------------------------------------------------- */
 .padtop{padding:80px 0 0 0;} 
 #header{padding:0 30px;}
-#header #logo{margin:22px 0 0 0;}
-#header #logo h1{margin:0; padding:0; font-size:2rem; font-variant:small-caps;}
+#header #logo{margin:15px 0 0 0;}
+#header #logo h1{margin:0; padding:0; font-size:3rem; font-variant:small-caps;;}
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:200px 0;}
+#pageintro{padding:80px 0;}
 #pageintro article{display:block; max-width:20%; text-transform:capitalize;}
 #pageintro .heading{font-size:5rem;}
 #pageintro footer{margin-top:20px;}
@@ -74,7 +74,7 @@ Content */
 .sidebar .sdb_holder:last-child{margin-bottom:0;}
 /* Footer */
 #footer{padding:80px 0;}
-#footer .heading{margin-bottom:50px; font-size:1.2rem;}
+#footer .heading{margin-bottom:50px; font-size:2rem;}
 #footer p + .faico{margin-top:30px;}
 #footer input, #footer button{border:1px solid;}
 #footer input{display:block; width:100%; padding:12px 15px;}
@@ -166,7 +166,7 @@ td{border-width:0 1px;}
 .faico{margin:0; padding:0; list-style:none;}
 .faico li{display:inline-block; margin:8px 5px 0 0; padding:0; line-height:normal;}
 .faico li:last-child{margin-right:0;}
-.faico a{display:inline-block; width:36px; height:36px; line-height:36px; font-size:18px; text-align:center;}
+.faico a{display:inline-block; width:36px; height:36px; line-height:36px; font-size:20px; text-align:center;}
 .faico a{color:inherit; background-color:rgba(255,255,255,.2);}
 .faico a:hover{color:#FFFFFF;}
 .faicon-dribble:hover{background-color:#EA4C89;}
@@ -198,7 +198,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#0AC6FC; border-color:#0AC6FC;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
-.imgover:hover::before{background-color:rgba(10,198,252,.3);/* #0AC6FC */}
+.imgover:hover::before{background-color:rgba(196, 225, 233, 0.3);/* #0AC6FC */}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
 
 
@@ -224,9 +224,29 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 	align-items: center;
     justify-content: center;
 	font-size:larger;
-	font-weight: 400px;
+	/* font-weight: 400px; */
+	font-size: 50px;
 }
-
+#ctdetails ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background-color: red; */
+	/* color: red; */
+}
+#ctdetails ul li{
+	/* padding: 10rem; */
+}
+#footericonos{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	/* align-items:flex-start; */
+	font-size: medium;
+}
+#footericonos span{
+	margin-left: 3.5rem;
+}
 /* Contact Details */
 #ctdetails ul li div i{color:black; background-color:rgba(255,255,255,.2);}
 #ctdetails ul li div:hover i{color:#FFFFFF; background-color:#0AC6FC;}
@@ -298,9 +318,10 @@ table a, #comments a{background-color:inherit;}
 
 	#breadcrumb{}
 
-	.container{}
+	.container{}}
 	#comments input[type="reset"]{margin-top:10px;}
 	.pagination li{display:inline-block; margin:0 5px 5px 0;}
+	
 
 	#footer{}
 

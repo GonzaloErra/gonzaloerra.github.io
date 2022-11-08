@@ -44,14 +44,15 @@
 }
 .box h1 {
 	color: #fff;
-	padding: 30px;
-	margin-top: 100px;
+	padding: px;
+	margin-top: px;
 	text-align: center;
 	font-weight: 100;
 	font-size: 25px;
 	background: rgba(0,0,0,0.8);
 	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
 	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
+	
 }
 
 .date h4 {
@@ -77,33 +78,33 @@
     
 }
 .one {
-	background: url('/masogori/images/demo/GonzaloM.jpg');
+	background: url('/images/demo/GonzaloM.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 .two {
-	background: url('/masogori/images/demo/GonzaloE.jpeg');
+	background: url('/images/demo/GonzaloE.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 .three {
-	background: url('/masogori/images/demo/Sofi.jpg');
+	background: url('/images/demo/Sofi.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 .five {
-	background: url('/masogori/images/demo/Majo.jpg');
+	background: url('/images/demo/Majo.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 .six {
-	background: url('/masogori/images/demo/Ori.jpg');
+	background: url('/images/demo/Ori.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -115,7 +116,7 @@
 	background-position: center;
 }
 .eight {
-	background: url('/masogori/images/Proveedor/propuesta.jpeg');
+	background: url('/images/Proveedor/propuesta.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -127,13 +128,13 @@
 	background-position: center;
 }
 .ten {
-	background: url('/masogori/images/Proveedor/proveedor.png');
+	background: url('/images/Proveedor/proveedor.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 .eleven {
-	background: url('/masogori/images/Proveedor/download.jpeg');
+	background: url('/images/Proveedor/download.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -362,4 +363,58 @@ background: #1CA59D;  /* fallback for old browsers */
 		to {
 				-webkit-transform: rotate(359deg);
 		}
+}
+
+
+#limpieza	{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.columnasgonzalo{
+	/* background-color: red ; */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	margin:3rem 0rem;
+}
+
+.columnasgonzalo p{
+margin: 10px;
+/* background-color: #00dbde; */
+align-self: center;
+}
+
+.columnasgonzalo iframe{
+	border-radius: 75%;
+	width: 50%;
+}
+
+#ctdetails ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background-color: red; */
+	/* color: red; */
+}
+
+#ctdetails ul li{
+	/* padding: 10rem; */
+}
+
+#footericonos{
+	display: flex;
+	flex-direction: row;
+	
+	justify-content:space-around;
+	/* align-items:flex-start; */
+
+	font-size: medium;
+
+}
+
+#footericonos span{
+	margin-left: 3.5rem;
 }

@@ -134,7 +134,7 @@
 	background-position: center;
 }
 .eleven {
-	background: url('/images/Proveedor/download.jpeg');
+	background: url('/images/Proveedor/innovacion.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -413,8 +413,4 @@ align-self: center;
 
 	font-size: medium;
 
-}
-
-#footericonos span{
-	margin-left: 3.5rem;
 }

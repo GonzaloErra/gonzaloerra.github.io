@@ -1,0 +1,41 @@
+#carosa_gonzalo2{
+	background-color: #A770EF;
+	
+	height: 100%;
+  }
+
+  .carosatexto{
+	height: 25rem;
+
+  }
+
+  #carosa_gonzalo{
+	background-color: #1CA59D;
+
+	/* border: #00CDAC solid 2px; */
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-content: center; */
+	/* width: 25%; */
+  }
+  .carousel-item {
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-content: center; */
+	min-height: 10rem;
+	height: 40rem;
+
+	}
+.carousel-item .carousel-caption{
+	color: red;
+
+}
+.carousel-item p{
+	margin-top: 5%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	/* min-height: 400px; */
+	font-size:xx-large;
+	}

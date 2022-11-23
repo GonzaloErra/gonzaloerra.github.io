@@ -416,7 +416,8 @@ table a, #comments a{background-color:inherit;}
 .letra_igual{
 	font-family: okine ;
 	color: black;
-	font-size: 150%;
+	font-size: 120%;
+	font-weight:100;
   }
 #letra_igual {
 	color: black;
@@ -424,18 +425,18 @@ table a, #comments a{background-color:inherit;}
   .letra_igual_titulo1{
 	font-family: lemon;
 	color: black;
-	font-size: 150%;
+	font-size: 100%;
   }
   .letra_igual_titulo2{
 	font-family: lemon;
 	color: black;
-	font-size: 100%;
+	font-size: 80%;
   }
   .title-intermedio {
 	color: black;
 	justify-content: center;
 	font-family: okine;
 	font-size:larger;
-	font-size: 200%;
-	font-weight:900;
+	font-size: 140%;
+	font-weight:500;
 }

@@ -2,7 +2,14 @@
 @import url("fontawesome-free/css/all.css");
 @import url("framework.css");
 @import url("test.css");
-
+@font-face{
+	src: url(/layout/styles/fontawesome-free/webfonts/lemon_milk/LEMONMILK-Medium.otf);
+	font-family: lemon;
+}
+@font-face{
+	src: url(/layout/styles/fontawesome-free/webfonts/made_okine_sans/MADEOkineSansPERSONALUSE-Medium.otf);
+	font-family: okine;
+}
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
 .padtop{padding:80px 0 0 0;} 
@@ -226,12 +233,14 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 	justify-content: center;
 	align-content: center;
 	text-align: center;
+	font-family: lemon;
 	align-items: center;
     justify-content: center;
 	font-size:larger;
 	/* font-weight: 400px; */
-	font-size: 50px;
+	font-size: 200%;
 }
+
 #ctdetails ul{
 	display: flex;
 	justify-content: center;
@@ -403,4 +412,30 @@ table a, #comments a{background-color:inherit;}
 	color: black;
 	/* margin-left: 10%; */
 	/* width: 100%; */
+}
+.letra_igual{
+	font-family: okine ;
+	color: black;
+	font-size: 150%;
+  }
+#letra_igual {
+	color: black;
+}
+  .letra_igual_titulo1{
+	font-family: lemon;
+	color: black;
+	font-size: 150%;
+  }
+  .letra_igual_titulo2{
+	font-family: lemon;
+	color: black;
+	font-size: 100%;
+  }
+  .title-intermedio {
+	color: black;
+	justify-content: center;
+	font-family: okine;
+	font-size:larger;
+	font-size: 200%;
+	font-weight:900;
 }

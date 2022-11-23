@@ -419,6 +419,12 @@ table a, #comments a{background-color:inherit;}
 	font-size: 120%;
 	font-weight:100;
   }
+  .letra_igual .a{
+	font-family: okine ;
+	color: black;
+	font-size: 90%;
+	font-weight:100;
+  }
 #letra_igual {
 	color: black;
 }
@@ -438,5 +444,13 @@ table a, #comments a{background-color:inherit;}
 	font-family: okine;
 	font-size:larger;
 	font-size: 140%;
+	font-weight:500;
+}
+.title-inovacion  {
+	color: black;
+	justify-content: center;
+	font-family: okine;
+	font-size:larger;
+	font-size: 200%;
 	font-weight:500;
 }

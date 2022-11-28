@@ -1,7 +1,12 @@
 #carosa_gonzalo2{
+	border: red dashed 2px;
 	background-color: white;
-	
-	height: 100%;
+	/* height: 10%; */
+	/* margin-top: -0%;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center; */
   }
 
   .carosatexto{
@@ -31,8 +36,14 @@
 
 }
 .carousel-item p{
-	margin-top: 5%;
+	font-family: okine ;
+	color: black;
 	color: white;
+	font-size: 120%;
+	font-weight:100;
+	margin-top: 5%;
+	/* color: red; */
+
 	display: flex;
 	justify-content: center;
 	align-content: center;

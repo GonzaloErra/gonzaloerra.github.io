@@ -48,3 +48,8 @@
 	/* min-height: 400px; */
 	font-size:xx-large;
 	}
+#carosa_gonzalo2 .carousel-control-next,
+#carosa_gonzalo2 .carousel-control-prev{
+    filter: invert(100%);
+	/* color: black; */
+}

@@ -1,5 +1,5 @@
 #carosa_gonzalo2{
-	border: red dashed 2px;
+	/* border: red dashed 2px; */
 	background-color: white;
 	/* height: 10%; */
 	/* margin-top: -0%;
@@ -32,13 +32,11 @@
 
 	}
 .carousel-item .carousel-caption{
-	color: red;
 
 }
 .carousel-item p{
 	font-family: okine ;
 	color: black;
-	color: white;
 	font-size: 120%;
 	font-weight:100;
 	margin-top: 5%;
